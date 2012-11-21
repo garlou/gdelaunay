@@ -140,24 +140,53 @@ div.views-row
 #about-menu-leaf a{
 	color: white !important;
 	line-height: 32px;
-	/*text-shadow: 0px 0px 9px black;*/
 }
-#illustrations-view-menu-leaf
+#about-menu-leaf a:hover
 {
-	background: url("../images/menu/menu-ilustracao.png") no-repeat 0 0;
+	text-shadow: 0px 0px 9px black;
+}
+#illustrations-view-menu-leaf > a
+{
+	background: url("../images/menu/menu-ilustracao.png") no-repeat 0 -1px;
+	height: 27px;
+	display: block;
+}
+#illustrations-view-menu-leaf > a:hover
+{
+	background: url("../images/menu/menu-ilustracao.png") no-repeat 0 -28px;
 }
 
-#designs-view-menu-leaf
+#designs-view-menu-leaf > a
 {
-	background: url("../images/menu/menu-design.png") no-repeat 0 0;
+	background: url("../images/menu/menu-design.png") no-repeat 0 -1px;
+	height: 28px;
+	display: block;
 }
-#stencil-view-menu-leaf
+#designs-view-menu-leaf > a:hover
 {
-	background: url("../images/menu/menu-stencil.png") no-repeat 0 0;
+	background: url("../images/menu/menu-design.png") no-repeat 0 -28px;
 }
-#sketchbook-view-menu-leaf
+#stencil-view-menu-leaf > a
 {
-	background: url("../images/menu/menu-sketchbook.png") no-repeat 0 0;
+	background: url("../images/menu/menu-stencil.png") no-repeat 0 -1px;
+	height: 28px;
+	display: block;
+	margin-bottom: 2px;
+}
+#stencil-view-menu-leaf > a:hover
+{
+	background: url("../images/menu/menu-stencil.png") no-repeat 0 -28px;
+}
+#sketchbook-view-menu-leaf > a
+{
+	background: url("../images/menu/menu-sketchbook.png") no-repeat 0 -1px;
+	height: 25px;
+	display: block;
+	margin-bottom: 4px;
+}
+#sketchbook-view-menu-leaf > a:hover
+{
+	background: url("../images/menu/menu-sketchbook.png") no-repeat 0 -30px;
 }
 
 li.parent-item
@@ -189,8 +218,8 @@ ul.menu li a {
 	width: 99px;
 }
 
-ul.menu li ul li a{
-	/*text-shadow: 0px 0px 9px black;*/
+ul.menu li ul li a:hover{
+	text-shadow: 0px 0px 9px black;
 }
 
 ul.menu li a:hover{
