@@ -1,0 +1,161 @@
+/*HTML*/
+
+html{
+	overflow-x:hidden;
+}
+
+#header div.section {
+	display: none;
+}
+
+h1#page-title{
+	display: none;
+}
+
+#page-wrapper{
+	position: relative;
+	overflow: hidden;
+}
+.one-sidebar #content{
+	width: auto;
+}
+
+#sidebar-first, #sidebar-second {
+	width: 240px;
+	float: left;
+	position: fixed;
+	z-index: 99;
+}
+#main {
+	margin: 0;
+}
+.content {
+margin-top: 0;
+}
+
+/*BACKGROUNDS*/
+
+/*#bg-deep, #bg-sup{
+	background: url("../images/bg-deep.png") 0 0 repeat-x transparent;
+	position: absolute;
+	width: auto;
+	z-index: -1000;
+}*/
+
+#bg-deep, #bg-sup {
+height: 100%;
+/*width: 100%;*/
+position: fixed;
+top: 0;
+left: 0;
+	width: auto;
+	z-index: -1000;
+}
+#bg-sup{
+	z-index: -100;
+}
+
+
+/*NODE*/
+
+div.views-row
+{
+	width: 450px;
+	float: left;
+}
+
+.field-name-field-imagem {
+	width: 450px;
+	margin: 0 auto;
+}
+
+.node h2{
+	display: none;
+}
+.field-label{
+	display: none;
+}
+
+.clear{
+	clear: both;
+}
+
+/*BREADCRUMB*/
+
+#breadcrumb{
+	display: none;
+}
+
+/*MENU*/
+
+#illustrations-view-menu-leaf
+{
+	background-image: url("../images/menu/menu-ilustracao.png");
+	color: transparent;
+	height: 26px;
+	display: block;
+	width: 91px;
+}
+#designs-view-menu-leaf
+{
+	background-image: url("../images/menu/menu-design.png");
+	color: transparent;
+	height: 26px;
+	display: block;
+	width: 91px;
+}
+
+ul.menu li ul li a {
+	font-family: Helvetica;
+	color: white;
+}
+
+#block-system-main-menu h2
+{
+	display: none;
+}
+
+#block-system-main-menu {
+padding-top: 153px;
+background: url("../images/menu/logo.png") -1px 0 no-repeat;
+border: none;
+}
+
+ul li.leaf {
+list-style-image: none !important;
+list-style-type: none !important;
+}
+
+.block ol, .block ul
+{
+	padding: 0 9px 0 3px;
+	font-size: 14px;
+}
+
+ul li.expanded {
+  list-style-image: none;
+  list-style-type: none;
+}
+
+#facebook-button, #linkedin-button {
+width: 20px;
+height: 23px;
+margin: 0 10px;
+padding: 0;
+float: left;
+cursor: crosshair;
+}
+
+#facebook-button{
+background: url("../images/menu/menu-facebook.png") no-repeat 3px 0 transparent;
+margin-left: 51px;
+}
+#linkedin-button{
+background: url("../images/menu/menu-linkedin.png") no-repeat 0 5px transparent;
+}
+
+/*FOOTER*/
+
+#footer-wrapper{
+	display: none;
+}

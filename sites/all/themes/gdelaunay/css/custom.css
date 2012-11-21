@@ -1,0 +1,248 @@
+/*HTML*/
+
+@font-face {
+    font-family: "league_gothic";
+    src: url(league_gothic.otf) format("truetype");
+    [font-weight: 100];
+}
+
+html{
+	overflow-x:hidden;
+}
+
+#header div.section {
+	display: none;
+}
+
+h1#page-title{
+	display: none;
+}
+
+#page-wrapper{
+	position: relative;
+	overflow: hidden;
+}
+.one-sidebar #content{
+	width: auto;
+}
+
+#sidebar-first, #sidebar-second {
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 240px;
+    z-index: 99;
+}
+#main {
+	margin: 0;
+}
+.content {
+margin-top: 0;
+}
+
+#content .link-wrapper,
+#content ul.inline,
+#content ul.links.inline {
+  display:none;
+}
+#content .node-teaser
+{
+	border: none;
+}
+/*BACKGROUNDS*/
+
+/*#bg-deep, #bg-sup{
+	background: url("../images/bg-deep.png") 0 0 repeat-x transparent;
+	position: absolute;
+	width: auto;
+	z-index: -1000;
+}*/
+
+#bg-deep, #bg-sup {
+height: 100%;
+/*width: 100%;*/
+position: fixed;
+top: 0;
+left: 0;
+	width: auto;
+	z-index: -1000;
+}
+#bg-sup{
+	z-index: -100;
+}
+
+
+/*ABOUT*/
+.field.field-name-body
+{
+	font-family: league_gothic;
+	color: white;
+	font-size: 1.4em;
+	text-align: justify;
+overflow-y: auto;
+max-height: 250px;
+text-shadow: 0px 0px 9px black;	
+}
+
+.field-item h1
+{
+	font-size: 1.6em;
+	color: white;
+	text-transform: uppercase;
+}
+
+.field-item h1 span
+{
+	font-size: 0.8em;
+}
+
+/*NODE*/
+
+#node-5 {
+	width: 560px;
+	margin: 0 auto;
+}
+
+div.views-row
+{
+	width: 450px;
+	float: left;
+}
+
+.field-name-field-imagem {
+	width: 450px;
+	margin: 0 auto;
+}
+
+.node h2{
+	display: none;
+}
+.field-label{
+	display: none;
+}
+
+.clear{
+	clear: both;
+}
+
+/*BREADCRUMB*/
+
+#breadcrumb{
+	display: none;
+}
+
+/*MENU*/
+#about-menu-leaf
+{
+	height: 25px;
+	padding-left: 2px;
+}
+#about-menu-leaf a{
+	color: white !important;
+	line-height: 32px;
+	/*text-shadow: 0px 0px 9px black;*/
+}
+#illustrations-view-menu-leaf
+{
+	background: url("../images/menu/menu-ilustracao.png") no-repeat 0 0;
+}
+
+#designs-view-menu-leaf
+{
+	background: url("../images/menu/menu-design.png") no-repeat 0 0;
+}
+#stencil-view-menu-leaf
+{
+	background: url("../images/menu/menu-stencil.png") no-repeat 0 0;
+}
+#sketchbook-view-menu-leaf
+{
+	background: url("../images/menu/menu-sketchbook.png") no-repeat 0 0;
+}
+
+li.parent-item
+{
+	background: none;
+	display: block;
+	min-height: 25px;
+	width: 133px;
+}
+
+li.parent-item > a{
+	color: transparent !important;
+}
+
+ul.menu li a {
+	font-family: Helvetica;
+	color: white;
+	font-family: league_gothic;
+	font-size: 1.4em;
+	font-weight: 100;
+	letter-spacing: 0.06em;
+	line-height: 20px;
+	cursor: pointer;
+}
+
+.region-sidebar-first .content
+{
+	background: url("../images/menu/transparent-pixel.png");
+	width: 99px;
+}
+
+ul.menu li ul li a{
+	/*text-shadow: 0px 0px 9px black;*/
+}
+
+ul.menu li a:hover{
+	text-decoration: none;
+}
+
+#block-system-main-menu h2
+{
+	display: none;
+}
+
+#block-system-main-menu {
+padding-top: 153px;
+background: url("../images/menu/logo.png") -1px 0 no-repeat;
+border: none;
+}
+
+ul li.leaf {
+list-style-image: none !important;
+list-style-type: none !important;
+}
+
+.block ol, .block ul
+{
+	padding: 3px 9px 0 3px;
+	font-size: 14px;
+}
+
+ul li.expanded {
+  list-style-image: none;
+  list-style-type: none;
+}
+
+#facebook-button, #linkedin-button {
+width: 20px;
+height: 23px;
+margin: 0 10px;
+padding: 0;
+float: left;
+cursor: crosshair;
+}
+
+#facebook-button{
+background: url("../images/menu/menu-facebook.png") no-repeat 3px 0 transparent;
+margin-left: 51px;
+}
+#linkedin-button{
+background: url("../images/menu/menu-linkedin.png") no-repeat 0 5px transparent;
+}
+
+/*FOOTER*/
+
+#footer-wrapper{
+	display: none;
+}
