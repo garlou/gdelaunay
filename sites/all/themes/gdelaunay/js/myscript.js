@@ -112,9 +112,7 @@ function scrollNext(){
 	curr = curr-curr_node;
 
 	$('body,html').animate({
-	    scrollLeft: $("#"+getCurrentNode()).offset().left,
-
-	   // scrollLeft: $("#node-"+(curr_node%$(".views-row .node").size())).offset().left
+	    scrollLeft: $("#"+getCurrentNode()).offset().left
 	 }, 1000);
 
 	xPos += ((curr%$(".views-row .node").size())*$(window).width() )/32;
